@@ -1,0 +1,120 @@
+
+
+
+body{
+	align-content: center;
+	margin: 0px;
+	border:none;
+	padding: 0px;
+	background-color: rgba(238, 236, 226, 0.918);
+}
+
+
+.banner{
+	background-image: url(Images/main-banner.png);
+	background-size: cover;
+	background-position: center;
+	height: 20rem;
+	
+}
+
+.title {
+	padding-top: 0.5em;
+	text-align: center;
+	font-family: 'Dancing Script';
+	font-size: 4.5em;
+
+}
+
+
+.title a{
+	color:rgba(24, 126, 10, 0.7);
+	text-decoration: none;
+	
+}
+
+.description{
+	min-width: 322px;
+	max-width: 600px;
+	min-height: 80px;
+	max-height: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.2em;
+	font-family: 'Short Stack';	
+
+}
+
+.meal{
+	font-family: 'Short Stack';
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(9, 48, 99, 0.918);
+}
+
+.row {
+	
+}
+
+.recipe{
+	min-width: 30%;
+	max-width: 80%;	
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.recipe a{
+	text-decoration: none;
+	color: rgba(36, 35, 35, 0.938);
+}
+
+
+.recipe-image, .recipe-image-item{
+	text-align: center;
+}
+
+.recipe img{
+	width: 300px;
+	height: 280px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.recipe-image-item img{
+	max-width: 300px;
+	margin:1em;
+	height: auto;
+	
+}
+
+.recipe-title{
+	text-align: center;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.howtodo{
+	text-align: center;
+	font-family: 'Short Stack';
+}
+
+.ingredients-list{
+	list-style-type: none;
+}
+
+.contacts {
+	text-align: center;
+	padding: 1em;
+	height: auto;
+	background-color: silver;
+}
+
+footer p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
