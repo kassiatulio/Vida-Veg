@@ -1,12 +1,8 @@
-
-
-
-body{
-	align-content: center;
+.body {
 	margin: 0px;
-	border:none;
+	border: none;
 	padding: 0px;
-	background-color: rgba(238, 236, 226, 0.918);
+	background-color: #dadaddea;
 }
 
 
@@ -15,55 +11,52 @@ body{
 	background-size: cover;
 	background-position: center;
 	height: 20rem;
-	
+	margin-bottom: 1em;
 }
 
 .title {
-	padding-top: 0.5em;
+	margin: 0.2em;
+	padding: 0.2em 0 0 0;
 	text-align: center;
 	font-family: 'Dancing Script';
 	font-size: 4.5em;
-
 }
 
 
 .title a{
 	color:rgba(24, 126, 10, 0.7);
 	text-decoration: none;
-	
+	padding: 0;
 }
 
-.description{
-	min-width: 322px;
+.description {
+	min-width: 350px;
 	max-width: 600px;
-	min-height: 80px;
+	min-height: 50px;
 	max-height: 300px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 1.5em;
+	margin-top: 0;
 	font-size: 1.2em;
 	font-family: 'Short Stack';	
-
 }
 
-.meal{
-	font-family: 'Short Stack';
+
+.description p {
+	background-color: wheat;
+	opacity: 0.5;
+	padding: 1em;
+	margin-top: 0;
+}
+
+.recipe {
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	color: rgba(9, 48, 99, 0.918);
-}
-
-.row {
-	
-}
-
-.recipe{
 	min-width: 30%;
 	max-width: 80%;	
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 .recipe a{
@@ -74,21 +67,25 @@ body{
 
 .recipe-image, .recipe-image-item{
 	text-align: center;
+
 }
 
 .recipe img{
-	width: 300px;
+	width: 280px;
 	height: 280px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 1em;
 }
 
 .recipe-image-item img{
 	max-width: 300px;
 	margin:1em;
 	height: auto;
-	
+	float: left;
 }
 
 .recipe-title{
@@ -99,7 +96,7 @@ body{
 
 
 .howtodo{
-	text-align: center;
+	text-align: left;
 	font-family: 'Short Stack';
 }
 
@@ -114,7 +111,7 @@ body{
 	background-color: silver;
 }
 
-footer p{
+contacts p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 }
