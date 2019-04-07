@@ -1,13 +1,8 @@
 const recipes = [
   {
-    url: "./panqueca-integral.html",
-    image: "./assets/images/panqueca-integral.jpg",
-    title: "Panqueca integral",
-  },
-  {
-    url: "./mamao-com-granola.html",
-    image: "./assets/images/mamao-com-granola.jpg",
-    title: "Mamão com granola",
+    url: "./mingau-de-aveia-e-banana.html",
+    image: "./assets/images/mingau-de-aveia-e-banana.jpg",
+    title: "Mingau de aveia e Banana",
   },
   {
     url: "./açai-na-tigela.html",
@@ -15,6 +10,11 @@ const recipes = [
     title: "Açaí na tigela",
   },
   {
+    url: "./panqueca-integral.html",
+    image: "./assets/images/panqueca-integral.jpg",
+    title: "Panqueca integral",
+  },
+   {
     url: "./espaguete-de-abobrinha.html",
     image: "./assets/images/espaguete-de-abobrinha.jpg",
     title: "Espaguete de abobrinha",
@@ -38,11 +38,6 @@ const recipes = [
     url: "./salada-de-abobrinha.html",
     image: "./assets/images/salada-de-abobrinha.jpg",
     title: "Salada de abobrinha",
-  },
-  {
-    url: "./mingau-de-aveia-e-banana.html",
-    image: "./assets/images/mingau-de-aveia-e-banana.jpg",
-    title: "Mingau de aveia e Banana",
   },
 ]
 
